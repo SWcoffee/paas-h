@@ -166,7 +166,7 @@
         "clash_mode": "rule"
       },
       {
-        "geosite": ["netflix","disney","openai","dazn","spotify","bing","imgur"],
+        "geosite": ["netflix","disney","dazn","spotify","bing","imgur"],
         "outbound": "WARP",
         "clash_mode": "rule"
       },
