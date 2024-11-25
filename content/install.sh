@@ -15,7 +15,7 @@ chmod +x /usr/bin/argo
 busybox wget -qO /usr/bin/warp-reg https://github.com/badafans/warp-reg/releases/download/v1.0/main-linux-amd64
 chmod +x /usr/bin/warp-reg
 /usr/bin/warp-reg > /etc/warp.conf
-rm /usr/bin/warp-reg
+# rm /usr/bin/warp-reg
 
 WG_PRIVATE_KEY=$(grep private_key /etc/warp.conf | sed "s|.*: ||")
 WG_PEER_PUBLIC_KEY=$(grep public_key /etc/warp.conf | sed "s|.*: ||")
